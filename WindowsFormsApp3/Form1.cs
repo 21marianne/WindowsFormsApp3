@@ -70,6 +70,9 @@ namespace WindowsFormsApp3
             {
                 figura.Dibujar(e.Graphics);
             }
+
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
