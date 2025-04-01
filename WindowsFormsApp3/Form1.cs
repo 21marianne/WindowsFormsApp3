@@ -20,7 +20,7 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
-
+        //Selección de color
         private void pictureBoxColor_Click(object sender, EventArgs e)
         {
             using (ColorDialog colorDialog = new ColorDialog())
@@ -33,11 +33,14 @@ namespace WindowsFormsApp3
             }
         }
 
+
         private void btnDibujar_Click(object sender, EventArgs e)
         {
+            //Creción de figura
+
             try
             {
-                int x = int.Parse(txtX.Text); 
+                int x = int.Parse(txtX.Text);
                 int y = int.Parse(txtY.Text);
 
                 Figura rectangulo = FiguraFactory.CrearFigura("Rectangulo", colorSeleccionado, x, y);
