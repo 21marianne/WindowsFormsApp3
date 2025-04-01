@@ -62,6 +62,8 @@ namespace WindowsFormsApp3
 
         protected override void OnPaint(PaintEventArgs e)
         {
+
+            /// Dibujo de figura
             base.OnPaint(e);
 
             foreach (var figura in figuras)
